@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercice_3.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="Montant:"></Label>
+        <Entry x:Name="inp_montant" Keyboard="Numeric" BackgroundColor="Bisque"></Entry>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Text="Pourboire"></Label>
+            <Entry Grid.Row="1" Grid.Column="0" Keyboard="Numeric" BackgroundColor="Bisque" x:Name="inp_pourboire" Text="0"></Entry>
+            <Picker x:Name="pourboireFormat" Grid.Row="1" Grid.Column="1" BackgroundColor="Bisque">
+                <Picker.Items>
+                    <x:String>Montant</x:String>
+                    <x:String>Pourcentage</x:String>
+                </Picker.Items>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+        </Grid>
+        
+        <Button Text="Calculer" BackgroundColor="CadetBlue" Clicked="Button_Clicked"></Button>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Label VerticalOptions="Center" Grid.Row="0" Grid.Column="0" Text="TPS: "></Label>
+            <Entry Grid.Row="0" Grid.Column="1" x:Name="inp_tps" IsReadOnly="True"></Entry>
+            <Label VerticalOptions="Center" Grid.Row="1" Grid.Column="0" Text="TVQ: "></Label>
+            <Entry Grid.Row="1" Grid.Column="1" x:Name="inp_tvq" IsReadOnly="True"></Entry>
+            <Label VerticalOptions="Center" Grid.Row="2" Grid.Column="0" Text="Sous-Total: "></Label>
+            <Entry Grid.Row="2" Grid.Column="1" x:Name="inp_soustotal" IsReadOnly="True"></Entry>
+
+            <Label VerticalOptions="Center" Grid.Row="3" Grid.Column="0" Text="Pourboire: "></Label>
+            <Entry Grid.Row="3" Grid.Column="1" x:Name="inp_pourboireDisplay" IsReadOnly="True"></Entry>
+            <Label VerticalOptions="Center" Grid.Row="4" Grid.Column="0" Text="Total: "></Label>
+            <Entry Grid.Row="4" Grid.Column="1" x:Name="inp_total" IsReadOnly="True"></Entry>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

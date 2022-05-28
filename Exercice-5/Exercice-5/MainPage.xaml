@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercice_5.MainPage">
+
+    <Grid Margin="10" x:Name="calculator">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!-- Display -->
+        <Label x:Name="UserDisplay" TextColor="Black" BackgroundColor="AliceBlue" Grid.Row="0" Grid.ColumnSpan="4" Grid.Column="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="70"></Label>
+        
+        <!-- Ranger de boutton -->
+        <Button Text="(" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="0"></Button>
+        <Button Text=")" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="1"></Button>
+        <Button Clicked="Button_Clear" Text="C" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="2"></Button>
+        <Button Clicked="Button_Delete" Text="⌫" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="3"></Button>
+
+        <!-- Ranger de boutton -->
+        <Button Text="7" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="0"></Button>
+        <Button Text="8" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="1"></Button>
+        <Button Text="9" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="2"></Button>
+        <Button Text="÷" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="2" Grid.Column="3"></Button>
+
+        <!-- Ranger de boutton -->
+        <Button Text="4" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="0"></Button>
+        <Button Text="5" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="1"></Button>
+        <Button Text="6" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="2"></Button>
+        <Button Text="X" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="3" Grid.Column="3"></Button>
+
+        <!-- Ranger de boutton -->
+        <Button Text="1" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="0"></Button>
+        <Button Text="2" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="1"></Button>
+        <Button Text="3" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="2"></Button>
+        <Button Text="-" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="4" Grid.Column="3"></Button>
+
+        <!-- Ranger de boutton -->
+        <Button Text="0" Style="{StaticResource BtnStyle}" Grid.Row="5" Grid.Column="0"></Button>
+        <Button Text="," Style="{StaticResource BtnStyle}" Grid.Row="5" Grid.Column="1"></Button>
+        <Button Clicked="Button_Clicked_1" Text="=" Style="{StaticResource BtnStyle}" BackgroundColor="#0a7ed1" TextColor="White" Grid.Row="5" Grid.Column="2"></Button>
+        <Button Text="+" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="5" Grid.Column="3"></Button>
+    </Grid>
+
+</ContentPage>

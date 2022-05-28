@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratoire01.MainPage"
+             >
+    <ContentView Margin="10">
+        <ScrollView x:Name="scrollPanel">
+            <StackLayout x:Name="form" >
+                <!-- Exercice 1 -->
+                <Label Text="Nom"></Label>
+                <Entry x:Name="Nom" BackgroundColor="Bisque" Keyboard="Default"></Entry>
+                <Label Text="Prenom"></Label>
+                <Entry x:Name="Prenom" BackgroundColor="Bisque" Keyboard="Default"></Entry>
+                <Label Text="Age"></Label>
+                <Entry x:Name="Age" BackgroundColor="Bisque" Keyboard="Numeric"></Entry>
+                <Label Text="Competences"></Label>
+                <Entry x:Name="Competences" BackgroundColor="Bisque" Keyboard="Default"></Entry>
+                <Label Text="Telephone"></Label>
+                <Entry x:Name="Telephone" BackgroundColor="Bisque" Keyboard="Telephone"></Entry>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button BackgroundColor="CadetBlue" Grid.Column="0" Text="Confirmer" Clicked="Button_Clicked"></Button>
+                    <Button BackgroundColor="OrangeRed" Grid.Column="1" Text="Annuler" Clicked="Button_Clicked_1"></Button>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentView>
+</ContentPage>

@@ -1,0 +1,15 @@
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\bin\Debug\netstandard2.0\Exercice-3.deps.json
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\bin\Debug\netstandard2.0\Exercice-3.dll
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\bin\Debug\netstandard2.0\Exercice-3.pdb
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.csproj.AssemblyReference.cache
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.AssemblyInfoInputs.cache
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.AssemblyInfo.cs
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.csproj.CoreCompileInputs.cache
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.dll
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\refint\Exercice-3.dll
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\Exercice-3.pdb
+F:\Session-3\Mobile-Apps\3. Laboratoire 1\Exercice-3\Exercice-3\obj\Debug\netstandard2.0\ref\Exercice-3.dll

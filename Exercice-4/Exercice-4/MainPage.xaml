@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercice_4.MainPage">
+
+    <StackLayout Margin="15">
+        <Label Text="Temperature" FontAttributes="Bold"></Label>
+        <Entry x:Name="inp_temperature" Keyboard="Numeric" HorizontalTextAlignment="Center" TextColor="Black"></Entry>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="C -> F" Clicked="Btn_Celsius_To_Fahrenheit"></Button>
+            <Button Text="F -> C" Clicked="Btn_Fahrenheit_To_Celsius"></Button>
+        </StackLayout>
+        <Label x:Name="lbl_temperature" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="20" TextColor="Black"></Label>
+    </StackLayout>
+
+</ContentPage>
