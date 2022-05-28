@@ -44,13 +44,13 @@ namespace Exercice_5
             }
 
             //If the button clicker is not a digit i will append space before and after the character, otherwise i will not
-            if (!Char.IsDigit(char.Parse(((Button)sender).Text)))
+            if (Char.IsDigit(char.Parse(((Button)sender).Text)) || ((Button)sender).Text == ".")
             {
-                UserInputDisplay += $" {((Button)sender).Text} ";
+                UserInputDisplay += ((Button)sender).Text;
             }
             else
             {
-                UserInputDisplay += ((Button)sender).Text;
+                UserInputDisplay += $" {((Button)sender).Text} ";
             }
             //Update the user calculator interface
             UserDisplay.Text = UserInputDisplay;
@@ -59,12 +59,7 @@ namespace Exercice_5
         //Handle the equal button
         private void Button_Equal(object sender, EventArgs e)
         {
-            string[] value = UserInputDisplay.Split(' ');
-
-            for (int i = 0; i < value.Length; i++)
-            {
-                
-            }
+            Caclulation();
         }
 
         //Clear the user calculator interface
@@ -80,6 +75,46 @@ namespace Exercice_5
             if (UserInputDisplay.Length <= 0) return;
             UserInputDisplay = UserInputDisplay.Remove(UserInputDisplay.Length - 1);
             UserDisplay.Text = UserInputDisplay;
+        }
+
+        public void Caclulation()
+        {
+            string[] value = UserInputDisplay.Split(' ');
+            double sum = 0;
+
+            for(int i = 0; i < value.Length; i++)
+            {
+                if(sum == 0)
+                {
+                    if (value[i] == "+") sum = double.Parse(value[i - 1]) + double.Parse(value[i + 1]);
+                    if (value[i] == "-") sum = double.Parse(value[i - 1]) - double.Parse(value[i + 1]);
+                    if (value[i] == "*") sum = double.Parse(value[i - 1]) * double.Parse(value[i + 1]);
+                    if (value[i] == "÷") sum = double.Parse(value[i - 1]) / double.Parse(value[i + 1]);
+                }else
+                {
+                    if (value[i] == "+") sum += double.Parse(value[i + 1]);
+                    if (value[i] == "-") sum -= double.Parse(value[i + 1]);
+                    if (value[i] == "*") sum *= double.Parse(value[i + 1]);
+                    if (value[i] == "÷") sum /= double.Parse(value[i + 1]);
+                }
+                UserInputDisplay = sum.ToString();
+                UserDisplay.Text = UserInputDisplay;
+            };
+
+            /* Pseudo Code
+             * 
+             * ["10", "+", "5", "-", "3"]
+             * 
+             * 1. Trim the user display value
+             * 2. Break it down as an array
+             * 3. check first and last value to make sure their not a symbol
+             * 4. if it's a symbol remove them from the array
+             * 5. loop trought the array get the number before, check the symbol, get the number after
+             * 6. do the operation and assign it to the a variable
+             * 7. after this do the variable, check the symbol, get the number after
+             * 
+             */
+
         }
     }
 }
