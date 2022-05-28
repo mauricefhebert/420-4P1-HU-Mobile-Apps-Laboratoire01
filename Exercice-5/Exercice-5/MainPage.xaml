@@ -1,56 +1,159 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Exercice_5.MainPage">
+<ContentPage
+    x:Class="Exercice_5.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Grid Margin="10" x:Name="calculator">
+    <Grid x:Name="calculator" Margin="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <!-- Display -->
-        <Label x:Name="UserDisplay" TextColor="Black" BackgroundColor="AliceBlue" Grid.Row="0" Grid.ColumnSpan="4" Grid.Column="0" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="70"></Label>
-        
-        <!-- Ranger de boutton -->
-        <Button Text="(" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="0"></Button>
-        <Button Text=")" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="1"></Button>
-        <Button Clicked="Button_Clear" Text="C" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="2"></Button>
-        <Button Clicked="Button_Delete" Text="⌫" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="1" Grid.Column="3"></Button>
+        <!--  Display  -->
+        <Label
+            x:Name="UserDisplay"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            BackgroundColor="AliceBlue"
+            FontSize="70"
+            HorizontalTextAlignment="End"
+            TextColor="Black"
+            VerticalTextAlignment="Center" />
 
-        <!-- Ranger de boutton -->
-        <Button Text="7" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="0"></Button>
-        <Button Text="8" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="1"></Button>
-        <Button Text="9" Style="{StaticResource BtnStyle}" Grid.Row="2" Grid.Column="2"></Button>
-        <Button Text="÷" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="2" Grid.Column="3"></Button>
+        <!--  Ranger de boutton  -->
+        <Button
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text="(" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text=")" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="#e8e8e8"
+            Clicked="Button_Clear"
+            Style="{StaticResource BtnStyle}"
+            Text="C" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="3"
+            BackgroundColor="#e8e8e8"
+            Clicked="Button_Delete"
+            Style="{StaticResource BtnStyle}"
+            Text="⌫" />
 
-        <!-- Ranger de boutton -->
-        <Button Text="4" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="0"></Button>
-        <Button Text="5" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="1"></Button>
-        <Button Text="6" Style="{StaticResource BtnStyle}" Grid.Row="3" Grid.Column="2"></Button>
-        <Button Text="X" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="3" Grid.Column="3"></Button>
+        <!--  Ranger de boutton  -->
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            Style="{StaticResource BtnStyle}"
+            Text="7" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            Style="{StaticResource BtnStyle}"
+            Text="8" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            Style="{StaticResource BtnStyle}"
+            Text="9" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text="÷" />
 
-        <!-- Ranger de boutton -->
-        <Button Text="1" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="0"></Button>
-        <Button Text="2" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="1"></Button>
-        <Button Text="3" Style="{StaticResource BtnStyle}" Grid.Row="4" Grid.Column="2"></Button>
-        <Button Text="-" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="4" Grid.Column="3"></Button>
+        <!--  Ranger de boutton  -->
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            Style="{StaticResource BtnStyle}"
+            Text="4" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            Style="{StaticResource BtnStyle}"
+            Text="5" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            Style="{StaticResource BtnStyle}"
+            Text="6" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text="X" />
 
-        <!-- Ranger de boutton -->
-        <Button Text="0" Style="{StaticResource BtnStyle}" Grid.Row="5" Grid.Column="0"></Button>
-        <Button Text="," Style="{StaticResource BtnStyle}" Grid.Row="5" Grid.Column="1"></Button>
-        <Button Clicked="Button_Clicked_1" Text="=" Style="{StaticResource BtnStyle}" BackgroundColor="#0a7ed1" TextColor="White" Grid.Row="5" Grid.Column="2"></Button>
-        <Button Text="+" Style="{StaticResource BtnStyle}" BackgroundColor="#e8e8e8" Grid.Row="5" Grid.Column="3"></Button>
+        <!--  Ranger de boutton  -->
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            Style="{StaticResource BtnStyle}"
+            Text="1" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            Style="{StaticResource BtnStyle}"
+            Text="2" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            Style="{StaticResource BtnStyle}"
+            Text="3" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text="-" />
+
+        <!--  Ranger de boutton  -->
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Style="{StaticResource BtnStyle}"
+            Text="0" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="1"
+            Style="{StaticResource BtnStyle}"
+            Text="," />
+        <Button
+            Grid.Row="5"
+            Grid.Column="2"
+            BackgroundColor="#0a7ed1"
+            Clicked="Button_Equal"
+            Style="{StaticResource BtnStyle}"
+            Text="="
+            TextColor="White" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            BackgroundColor="#e8e8e8"
+            Style="{StaticResource BtnStyle}"
+            Text="+" />
     </Grid>
 
 </ContentPage>
