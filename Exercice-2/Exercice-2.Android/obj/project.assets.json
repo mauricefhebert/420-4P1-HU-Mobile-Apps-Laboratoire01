@@ -3177,11 +3177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\Exercice-2.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\Exercice-2.Android.csproj",
       "projectName": "Exercice-2.Android",
-      "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\Exercice-2.Android.csproj",
+      "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\Exercice-2.Android.csproj",
       "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\obj\\",
+      "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -3198,8 +3198,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj": {
-              "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj"
+            "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj": {
+              "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj"
             }
           }
         }

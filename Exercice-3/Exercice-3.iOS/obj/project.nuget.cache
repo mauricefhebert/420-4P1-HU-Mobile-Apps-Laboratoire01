@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQofUe1pC6ZZM26KfQTmYaHik1sF23Ngveifij7M4cMUxXEN1hHprJu5ouToiGrRxa04usYGst4Mr5pVmdFN3w==",
+  "dgSpecHash": "n76pWm0CoIAJEvruSuAA4V6y60Bx64tBCJ1C0gjJ/udFJ/7B8vAG1hstFYYqQ3d8sZOKu8coZzRX5lu8r4Fdxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-3\\Exercice-3.iOS\\Exercice-3.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-3\\Exercice-3.iOS\\Exercice-3.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N+m8KxOrcOCHqEV+mN2H7FSk2dpAV/DRYAOhEwAt5lcoh5kCKkiIAzZN1bP3AEdvzh2+AcQORU9m0OWH52wZBw==",
+  "dgSpecHash": "fnnT1M++UFVJILXJ6b6gEbepLUwoNyis0AjY/jLGn37Y8+Gzx8DzX3Wkqx8Q8/ovAmdEHTXf26lvjm+uXCzudw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj",
+  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-2\\Exercice-2\\Exercice-2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

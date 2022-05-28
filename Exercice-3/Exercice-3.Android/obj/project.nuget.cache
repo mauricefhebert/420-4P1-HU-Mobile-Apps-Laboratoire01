@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DSxqVgyBzzoEa7irxCP+SxGtjZL3qFUm10NF6VchlU81IgFi10MrvdTXf98cLUzO2aJXzvJzdc8TMaF3I65LuQ==",
+  "dgSpecHash": "gr51Rp57QRvwlGGFRkwpohRmK6lP5jNJptVq9Dcxkk2y0VL3JZQglLKG2pWN17md97W6+OJFxoTP2rHpTDiC3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-3\\Exercice-3.Android\\Exercice-3.Android.csproj",
+  "projectFilePath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-3\\Exercice-3.Android\\Exercice-3.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mauri\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mauri\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

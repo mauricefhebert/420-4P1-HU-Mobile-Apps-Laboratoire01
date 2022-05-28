@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj": {}
+    "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj": {
+    "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj",
         "projectName": "Exercice-5.Android",
-        "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj",
+        "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\Exercice-5.Android.csproj",
         "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\obj\\",
+        "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj": {
-                "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj"
+              "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj": {
+                "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj"
               }
             }
           }
@@ -50,14 +50,14 @@
         }
       }
     },
-    "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj": {
+    "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj",
+        "projectUniqueName": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj",
         "projectName": "Exercice-5",
-        "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj",
+        "projectPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\Exercice-5.csproj",
         "packagesPath": "C:\\Users\\Mauri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\obj\\",
+        "outputPath": "C:\\Users\\Mauri\\Documents\\Programming\\Mobile\\420-4P1-HU-Mobile-Apps-Laboratoire01\\Exercice-5\\Exercice-5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,7 +111,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
