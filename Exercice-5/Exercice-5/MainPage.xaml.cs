@@ -82,15 +82,16 @@ namespace Exercice_5
             string[] value = UserInputDisplay.Split(' ');
             double sum = 0;
 
-            for(int i = 0; i < value.Length; i++)
+            for (int i = 0; i < value.Length; i++)
             {
-                if(sum == 0)
+                if (sum == 0)
                 {
                     if (value[i] == "+") sum = double.Parse(value[i - 1]) + double.Parse(value[i + 1]);
                     if (value[i] == "-") sum = double.Parse(value[i - 1]) - double.Parse(value[i + 1]);
                     if (value[i] == "*") sum = double.Parse(value[i - 1]) * double.Parse(value[i + 1]);
                     if (value[i] == "÷") sum = double.Parse(value[i - 1]) / double.Parse(value[i + 1]);
-                }else
+                }
+                else
                 {
                     if (value[i] == "+") sum += double.Parse(value[i + 1]);
                     if (value[i] == "-") sum -= double.Parse(value[i + 1]);
@@ -100,21 +101,6 @@ namespace Exercice_5
                 UserInputDisplay = sum.ToString();
                 UserDisplay.Text = UserInputDisplay;
             };
-
-            /* Pseudo Code
-             * 
-             * ["10", "+", "5", "-", "3"]
-             * 
-             * 1. Trim the user display value
-             * 2. Break it down as an array
-             * 3. check first and last value to make sure their not a symbol
-             * 4. if it's a symbol remove them from the array
-             * 5. loop trought the array get the number before, check the symbol, get the number after
-             * 6. do the operation and assign it to the a variable
-             * 7. after this do the variable, check the symbol, get the number after
-             * 
-             */
-
         }
     }
 }
